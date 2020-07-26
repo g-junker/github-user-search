@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin-left: 0.5em;
+    color: white;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: #02a9af;
+}
+
+a:hover{
+    color: #71d1d4;
+}
+
+ul li{
+    list-style: none;
+}
+
+
+
+/* Header */
+
+.header{
+    padding: 2.5em;
+    background-color:	#00c2c7;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.search-form form > input {
+    padding: 4px 8px 4px 42px;
+    border: none;
+    border-radius: 25px;
+    width: 25em;
+    height: 30px;
+    font-family : inherit;
+}
+
+.search-form form > input:focus, textarea:focus {
+    outline: none;
+}
+
+.fa-search {
+    position: absolute;
+    color: #b8b8b8;
+    padding-left: 14px;
+    padding-top: 11px;
+}
+
+
+
+/* Wraper */
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 0 2em;
+}
+
+
+
+/* User */
+
+.user {
+    text-align: center;
+    line-height: 1.5em;
+    position: sticky;
+    top: 2em;
+}
+
+.user > li > h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.user > li > img {
+    width: 160px;
+    border-radius: 100px;
+}
+
+.user > li:last-child {
+    margin-top: 0.5em;
+}
+
+
+
+/* User Not Found */
+
+.error {
+    margin-top: 2em;
+    font-size: 2em;
+    color: #AAA;
+}
+
+
+
+/* Repositories */
+
+#repositories {
+    display: none;
+    margin-left: 5em;
+    max-width: 700px;
+}
+
+.repos {
+    border-bottom: 1px solid #AAA;
+    padding: 2em 0em;
+}
+
+.repos:last-child {
+    border-bottom: none;
+}
+
+.repos > ul > li{
+    text-align: left;
+    padding-bottom: 0.5em;
+}
+
+.repos > ul > li:last-child{
+    color: #AAA;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+}
+
+
